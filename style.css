@@ -17,3 +17,15 @@ h1 {
   display: inline-block; /* Només ocupa l'espai del text */
   background-color: #d6f5f5; /* Mateix fons que la pàgina */
 }
+
+/* Nom i correu electrònic*/
+h5 {
+  color: black; /* Color del text */
+  text-align: left;
+  font-size: 8px;
+  position: left;
+}
+
+
+
+
