@@ -16,5 +16,11 @@ h1 {
   border-radius: 10px; /* Cantonades arrodonides */
   display: inline-block; /* Només ocupa l'espai del text */
   background-color: #d6f5f5; /* Mateix fons que la pàgina */
-  margin-bottom: 10px; /* Redueix l'espai sota el h1 */
+  margin-bottom: 8px; /* Redueix l'espai sota el h1 */
+}
+
+/* Autoria*/
+h5 {
+  color: black; /* Color del text */
+  font-size: 12px;
 }
