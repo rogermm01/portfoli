@@ -8,7 +8,7 @@ body {
 
 /* Títol de la pàgina*/
 h1 {
-  color: black; /* Color del text */
+  color: black; 
   text-align: center;
   font-size: 28px;
   padding: 10px;
@@ -19,8 +19,14 @@ h1 {
   margin-bottom: 8px; /* Redueix l'espai sota el h1 */
 }
 
+/* Descripció de la cartografia*/
+p {
+  color: black; 
+  font-size: 10px;
+}
+
 /* Autoria*/
 h5 {
-  color: black; /* Color del text */
+  color: black; 
   font-size: 12px;
 }
