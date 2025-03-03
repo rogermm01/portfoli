@@ -4,4 +4,4 @@ Aquest portfoli té per objectiu mostrar de forma ordenada i visualment atractiv
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Portafolio SIG
-Este portfolio tiene per objetivo mostrar de forma ordenada y visualmente atractiva las cartografias creadas, descritas y alojadas en el repositorio llamado 'mapes-cartografia' (https://github.com/rogermm01/mapes-cartografia.git).
+Este portafolio tiene per objetivo mostrar de forma ordenada y visualmente atractiva las cartografias creadas, descritas y alojadas en el repositorio llamado 'mapes-cartografia' (https://github.com/rogermm01/mapes-cartografia.git).
