@@ -1,13 +1,13 @@
 /* Fons de la pàgina */
 body {
-  background-color: #d6f5f5;
+  background-color: #e4ebeb;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
 }
 
 /* Títol de la pàgina*/
-h1 {
+.titol-container {
   color: black; 
   text-align: center;
   font-size: 28px;
@@ -15,8 +15,17 @@ h1 {
   border: 3px solid black; /* Marc negre */
   border-radius: 10px; /* Cantonades arrodonides */
   display: inline-block; /* Només ocupa l'espai del text */
-  background-color: #d6f5f5; /* Mateix fons que la pàgina */
-  margin-bottom: 8px; /* Redueix l'espai sota el h1 */
+  background-color: #e4ebeb; /* Mateix fons que la pàgina */
+  margin-bottom: 8px; /* Espai sota el requadre */
+}
+
+.titulo-container h1 {
+  margin: 0; /* Elimina márgenes adicionales */
+}
+
+.titulo-container h3 {
+  margin: 5px 0 0; /* Pequeño margen arriba */
+  font-size: 18px; /* Tamaño ajustado */
 }
 
 /* Descripció de la cartografia*/
