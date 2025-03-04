@@ -10,7 +10,7 @@ body {
 .titol-container {
   color: black; 
   text-align: center;
-  font-size: 28px;
+  font-size: 24px;
   padding: 10px;
   border: 3px solid black; /* Marc negre */
   border-radius: 10px; /* Cantonades arrodonides */
@@ -25,7 +25,7 @@ body {
 
 .titulo-container h3 {
   margin: 5px 0 0; /* Pequeño margen arriba */
-  font-size: 18px; /* Tamaño ajustado */
+  font-size: 16px; /* Tamaño ajustado */
 }
 
 /* Descripció de la cartografia*/
