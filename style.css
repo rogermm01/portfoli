@@ -6,38 +6,10 @@ body {
   padding: 20px;
 }
 
-/* Estil del menú de pestanyes */
-.tabs {
-  display: flex;
-  border-bottom: 2px solid #ccc;
-}
-
-.tablink {
-  background-color: #f1f1f1;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  flex-grow: 1;
-  text-align: center;
-  font-size: 16px;
-}
-
-.tablink.active {
-  background-color: #ddd;
-  font-weight: bold;
-}
-
-/* Contingut de les pestanyes */
-.tabcontent {
-  display: none;
-  padding: 20px;
-}
-
 /* Títol de la pàgina*/
 .titol-container {
   color: black;
   text-align: center;
-  font-size: 16px;
   padding: 10px;
   border: 3px solid black; /* Marc negre */
   border-radius: 10px; /* Cantonades arrodonides */
@@ -48,12 +20,14 @@ body {
 }
 
 .titol-container h1 {
-  margin: 0; /* Elimina márgenes adicionales */
+  margin: 0; /* Elimina marges adicionales */
+  font-size: 16px;
+
 }
 
 .titol-container h3 {
-  margin: 5px 0 0; /* Pequeño margen arriba */
-  font-size: 12px; /* Tamaño ajustado */
+  margin: 5px 0 0; /* Petit marge superior */
+  font-size: 14px; 
 }
 
 /* Descripció de la cartografia*/
