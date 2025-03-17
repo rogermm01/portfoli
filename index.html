@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfoli SIG</title>A
+    <title>Portfoli SIG</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,9 +14,15 @@
         <br>Anàlisi i processament SIG · Gestió de bases de dades espacials · Teledetecció</br></h3>
     </div>
 
-    <!-- Mapes estàtics -->
+    <div class="tabs">
+        <div class="tab active" onclick="showTab(0)">Mapes estàtics</div>
+        <div class="tab" onclick="showTab(1)">Visor web</div>
+    </div>
+
+    <div id="tab-content">
+        <!-- PESTANYA 1: Mapes Estàtics -->
+        <div class="content active">        
         <h4>1. Indicadors demogràfics, econòmics i socials</h4>
-            
         <h5>1.1 Renda mitjana anual per persona el 2015, el 2021 i evolució durant el període, per comarques (Catalunya)</h5>
         <a href="https://raw.githubusercontent.com/rogermm01/mapes-cartografia/main/JPEG/renda_mitjana_persona_2015_2021.jpeg" target="_blank">
             <img src="https://raw.githubusercontent.com/rogermm01/mapes-cartografia/main/JPEG/renda_mitjana_persona_2015_2021.jpeg" 
@@ -68,10 +74,28 @@
         <a href="https://raw.githubusercontent.com/rogermm01/mapes-cartografia/main/descriptions/alcada_edificatoria_nucli_antic_Hostalric.md" target="_blank">
         descripció de la cartografia</a>.
         </p>
+        </div>
 
-    
+    <!-- PESTANYA 2: VISOR WEB -->
+    <div class="content">
+    <h4>3. Visor Web d'Estacions Climatològiques</h4>
+    <iframe src="visor-web/index.html"
+    </div>
 
-        <h6>(roger.montane80@gmail.com)</h6>
+    <script>
+    function showTab(index) {
+        let tabs = document.querySelectorAll('.tab');
+        let contents = document.querySelectorAll('.content');
+
+        tabs.forEach(tab => tab.classList.remove('active'));
+        contents.forEach(content => content.classList.remove('active'));
+
+        tabs[index].classList.add('active');
+        contents[index].classList.add('active');
+    }
+    </script>
+        
+    <h6>(roger.montane80@gmail.com)</h6>
 
 </body>
 </html>
