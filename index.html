@@ -5,9 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfoli SIG</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estil per ocultar pestanyes per defecte */
+        .content {
+            display: none;
+        }
+        /* Mostra només la pestanya activa */
+        .content.active {
+            display: block;
+        }
+        .tabs {
+            display: flex;
+            cursor: pointer;
+        }
+        .tab {
+            padding: 10px;
+            margin-right: 10px;
+            background: #ccc;
+            border-radius: 5px;
+        }
+        .tab.active {
+            background: #666;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-
+    
     <div class="titol-container">
         <h1>Roger Montané Manjón</h1>
         <h3>Graduat en Geografia, Medi Ambient i Planificació Territorial, UAB (2023). <br>Postgraduat en Geoinformàtica i Programació SIG, UNIGIS Girona (2024).</br>
