@@ -38,7 +38,7 @@ p {
 .visor-iframe {
     width: 700px;
     height: 700px;
-    border: 2px solid black;
+    border: none;
     margin: 0;
     margin-top: 0;
     margin-bottom: 0;
